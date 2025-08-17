@@ -202,7 +202,7 @@ wget -q -O /usr/bin/menu-bckp "https://raw.githubusercontent.com/NevermoreSSH/Bl
 wget -q -O /usr/bin/bckp "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/bckpbot.sh"
 wget -q -O /usr/bin/usernew "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/usernew.sh"
 # wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/menu.sh"
-wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/menu4.sh"
+wget -q -O /usr/bin/menu "https://raw.githubusercontent.com/spider660/Blueblue/main/menu4.sh"
 wget -q -O /usr/bin/wbm "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/webmin.sh"
 wget -q -O /usr/bin/xp "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/xp.sh"
 wget -q -O /usr/bin/update "https://raw.githubusercontent.com/NevermoreSSH/Blueblue/main/update.sh"
