@@ -206,7 +206,7 @@ cores=$(awk -F: '/model name/ {core++} END {print core}' /proc/cpuinfo)
 freq=$(awk -F: ' /cpu MHz/ {freq=$2} END {print freq}' /proc/cpuinfo)
 clear
 echo -e "${BICyan} ┌────────────────────────────────────────────────────────────┐${NC}"
-echo -e "${BICyan} │                  ${BIWhite}${UWhite}Server Informations${NC}"         
+echo -e "${BICyan} │                  ${BIWhite}${UWhite}Spider Script Server Informations${NC}"         
 echo -e "${BICyan} │"                                                                      
 echo -e "${BICyan} │  ${BICyan}OS Linux        :  "$(hostnamectl | grep "Operating System" | cut -d ' ' -f5-)  
 echo -e "${BICyan} │  ${BICyan}Kernel          :  ${BICyan}$(uname -r)${NC}"  
@@ -263,7 +263,8 @@ echo -e "     ${BICyan}[${BIWhite}99${BICyan}] RESTORE ${BICyan}${BIYellow}${BIC
 echo -e "     ${BICyan}[${BIWhite}x ${BICyan}] EXIT ${BICyan}${BIYellow}${BICyan}${NC}"  
 echo -e "${BICyan} └────────────────────────────────────────────────────────────┘${NC}"
 echo -e " ${BICyan}┌─────────────────────────────────────┐${NC}"
-echo -e " ${BICyan}│  Version      ${NC} : $sem Last Update"    
+echo -e " ${BICyan}│  Version      ${NC} : $sem Last Update" 
+echo -e " ${BICyan}│  Owner        ${NC} : SPIDER (LAU)"    
 echo -e " ${BICyan}└─────────────────────────────────────┘${NC}"
 echo
 read -p " Select menu : " opt
